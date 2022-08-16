@@ -1,0 +1,284 @@
+ nav{
+    height: 50px !important;
+    
+}
+#logo{
+    width: 35%;
+    margin-left: -50px !important;
+    margin-top: 8px;
+    transform: scale(1.2);
+}
+#side-logo{
+     width: 90%;
+    margin-top: 8px;
+    margin-left: 10px;
+    height: 70px;
+    margin-bottom: -30px;
+}
+.side-nav > li >a{
+    color: white !important;
+}
+.side-nav > li >a >i{
+    color: white !important;
+}
+.side-nav > li > h6{
+    color: white !important;
+}
+.fa-bars{
+    margin-right: 15px;
+    margin-top: 0px;
+}
+.newsletter{
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 12px;
+    background-color: goldenrod;
+    padding: 0px 5px 0px;
+    width: 80px;
+    color: black;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid white;
+}
+.s12 h5{
+    font-size: 14px;
+    font-weight: bold;
+}
+.s12{
+    margin-top: -10px !important;
+}
+#not{
+        font-weight: bolder;
+        font-size: 30px;
+    }
+span #social{
+    display: inline-block !important;
+    width: 15px !important;
+    height: 20px !important;
+}
+#social-img[alt=flag]{
+    width: 20% !important;
+    margin-top: 0px;
+    height: 20px;
+    float: left;
+   
+}
+#social-links .fa{
+    width: 10% !important;
+    display: inline-block !important;
+    float: left;
+    color: white !important;
+}
+#today{
+        margin-top: -15px !important;
+        
+    }
+    #today h6{
+        font-size: 14.7px;
+        height: 22px;
+        line-height: 22px;
+    }
+#today h5{
+    font-size: 15px;
+}
+div > .black-text{
+    border: 1px solid black;
+}
+#ad1{
+    height: 50px;
+}
+#videos{
+    background-color: #000 !important;
+}
+span > #footer-links{
+        padding: 0px 8px 0px !important;
+        transform: scale(1.2);
+    }
+li > #footer-terms:hover{
+        color: dodgerblue !important;
+    }
+li > #footer-terms:not(.last){
+        border-right: 1px solid white;
+    }
+#card-content > .card-content{
+    border-left: 8px solid dodgerblue;
+}
+#card-content > .card-content > p{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+@media only screen and (min-width: 768px){
+      nav{
+    height: 90px !important;
+}
+#logo{
+    width: 55%;
+    margin-left: -200px !important;
+    margin-top: 15px;
+}
+    .fa-bars{
+    margin-right: 15px;
+    margin-top: 10px;
+}
+    .newsletter{
+    display: inline-block;
+    margin-right: 60px;
+    margin-top: 25px;
+    background-color: goldenrod;
+    padding: 5px 10px 5px;
+    width: auto;
+        color: black;
+    font-size: 30px;
+    height: 50px;
+    line-height: 40px;
+    border: 4px solid black;
+}
+    .s12 h5{
+    font-size: 20px;
+        font-weight: bold;
+        word-spacing: 10px;
+}
+    #ad1{
+    height: 100px;
+}
+    span > #footer-links{
+        padding: 0px 17px 0px !important;
+        transform: scale(2);
+    }
+    li > #footer-terms:not(.last){
+        border-right: 1px solid white;
+    }
+     li > #footer-terms:hover{
+        color: dodgerblue !important;
+    }
+    #eddie{
+        margin-top: -670px !important;
+    }
+    #paul{
+        margin-top: -325px !important;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1000px){
+nav{
+    height: 90px !important;
+    width: 100%;
+}
+#logo{
+    display: block;
+    width: 25%;
+    margin-left: 30px !important;
+    margin-top: 20px;
+}
+    .newsletter{
+        display: none;
+    }
+    .hide-on-med-and-down{
+        width: 88%;
+        line-height: 95px;
+    }
+    .active{
+      color: dodgerblue;
+    }
+    .hide-on-med-and-down >li:not(#social){
+        border-right: 2px solid dodgerblue;
+        height: 20px;
+        line-height: 20px;
+        margin-top: 45px;
+       
+    }
+    .hide-on-med-and-down >li > a{
+         font-family: sans-serif !important;
+        font-size: 18px;
+    }
+    
+    .hide-on-med-and-down > li > a:hover{
+       color: dodgerblue;
+    }
+    .hide-on-med-and-down > li > #live:hover{
+        color: dodgerblue;
+    }
+    #not{
+        font-weight: bolder;
+        font-size: 30px;
+        margin-top: -5px;
+    }
+    .s12 h5{
+    font-size: 22px;
+        font-weight: bold;
+        word-spacing: 10px;
+}
+    .black-text {
+        border: 1px solid black;
+    }
+    #today{
+        margin-top: -10px !important;
+        
+    }
+    #today h6{
+        font-size: 22px;
+        height: 30px;
+        line-height: 30px;
+    }
+    #today h5{
+    font-size: 22px;
+}
+    #social{
+        display: inline-block;
+    }
+    #social-links{
+        height: 25px;
+        line-height: 25px;
+        margin-top: 40px;
+    }
+    .fa-facebook{
+        margin-left: 20px;
+    }
+    li > a > .fa-youtube{
+        border-right: 2px solid dodgerblue;
+        padding-right: 10px;
+    }
+    span> img{
+        width: 5%;
+        float: left;
+        margin-top: 40px;
+    }
+    span > h5{
+          margin-top: 42px;
+        font-size: 20px;
+        margin-left: 2px;
+    }
+    #ad1{
+    height: 150px;
+}
+    #under{
+        margin-top: 0px;
+    }
+    #videos{
+    background-color: #fff !important;
+
+}
+    span > #footer-links{
+        padding: 0px 15px 0px !important;
+        transform: scale(1.5);
+    }
+    li > #footer-terms:not(.last){
+        border-right: 1px solid white;
+    }
+     li > #footer-terms:hover{
+        color: dodgerblue !important;
+    }
+    #eddie{
+        margin-top: -680px !important;
+    }
+    #paul{
+        margin-top: -352px !important;
+    }
+    
+}
